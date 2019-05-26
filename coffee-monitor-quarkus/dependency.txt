@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< tdc.kafka:coffee-monitor >----------------------
+[INFO] Building coffee-monitor 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ coffee-monitor ---
+[INFO] tdc.kafka:coffee-monitor:jar:1.0-SNAPSHOT
+[INFO] +- io.vertx:vertx-core:jar:3.7.0:compile
+[INFO] |  +- io.netty:netty-common:jar:4.1.30.Final:compile
+[INFO] |  +- io.netty:netty-buffer:jar:4.1.30.Final:compile
+[INFO] |  +- io.netty:netty-transport:jar:4.1.30.Final:compile
+[INFO] |  +- io.netty:netty-handler:jar:4.1.30.Final:compile
+[INFO] |  |  \- io.netty:netty-codec:jar:4.1.34.Final:compile
+[INFO] |  +- io.netty:netty-handler-proxy:jar:4.1.30.Final:compile
+[INFO] |  |  \- io.netty:netty-codec-socks:jar:4.1.34.Final:compile
+[INFO] |  +- io.netty:netty-codec-http:jar:4.1.30.Final:compile
+[INFO] |  +- io.netty:netty-codec-http2:jar:4.1.30.Final:compile
+[INFO] |  +- io.netty:netty-resolver:jar:4.1.30.Final:compile
+[INFO] |  +- io.netty:netty-resolver-dns:jar:4.1.30.Final:compile
+[INFO] |  |  \- io.netty:netty-codec-dns:jar:4.1.34.Final:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.8:compile
+[INFO] |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.8:compile
+[INFO] |     \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.8:compile
+[INFO] +- io.vertx:vertx-rx-java2:jar:3.7.0:compile
+[INFO] |  +- io.reactivex.rxjava2:rxjava:jar:2.2.8:compile
+[INFO] |  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+[INFO] |  \- io.vertx:vertx-rx-gen:jar:3.7.0:compile
+[INFO] |     \- io.vertx:vertx-codegen:jar:3.7.0:compile
+[INFO] |        \- org.mvel:mvel2:jar:2.3.1.Final:compile
+[INFO] +- io.vertx:vertx-web:jar:3.7.0:compile
+[INFO] |  +- io.vertx:vertx-web-common:jar:3.7.0:compile
+[INFO] |  +- io.vertx:vertx-auth-common:jar:3.7.0:compile
+[INFO] |  \- io.vertx:vertx-bridge-common:jar:3.7.0:compile
+[INFO] +- io.vertx:vertx-web-client:jar:3.7.0:compile
+[INFO] +- io.vertx:vertx-config:jar:3.7.0:compile
+[INFO] +- io.vertx:vertx-kafka-client:jar:3.7.0:compile
+[INFO] |  +- org.apache.kafka:kafka-clients:jar:1.1.0:compile
+[INFO] |  |  +- org.lz4:lz4-java:jar:1.4:compile
+[INFO] |  |  \- org.xerial.snappy:snappy-java:jar:1.1.7.1:compile
+[INFO] |  +- org.apache.kafka:kafka_2.12:jar:1.1.0:compile
+[INFO] |  |  +- net.sf.jopt-simple:jopt-simple:jar:5.0.4:compile
+[INFO] |  |  +- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+[INFO] |  |  +- org.scala-lang:scala-reflect:jar:2.12.2:compile
+[INFO] |  |  +- com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2:compile
+[INFO] |  |  +- com.101tec:zkclient:jar:0.10:compile
+[INFO] |  |  \- org.apache.zookeeper:zookeeper:jar:3.4.10:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- org.slf4j:slf4j-log4j12:jar:1.7.21:compile
+[INFO] |  \- log4j:log4j:jar:1.2.17:compile
+[INFO] +- org.apache.kafka:kafka-streams:jar:2.1.0:compile
+[INFO] |  +- org.apache.kafka:connect-json:jar:2.1.0:compile
+[INFO] |  |  \- org.apache.kafka:connect-api:jar:2.1.0:compile
+[INFO] |  |     \- javax.ws.rs:javax.ws.rs-api:jar:2.1.1:compile
+[INFO] |  \- org.rocksdb:rocksdbjni:jar:5.14.2:compile
+[INFO] +- org.webjars:bootstrap:jar:4.3.1:compile
+[INFO] |  +- org.webjars:jquery:jar:3.0.0:compile
+[INFO] |  \- org.webjars:popper.js:jar:1.14.3:compile
+[INFO] +- org.webjars:font-awesome:jar:5.8.1:compile
+[INFO] +- org.webjars.bower:sockjs-client:jar:1.3.0:compile
+[INFO] +- org.webjars.npm:vertx3-eventbus-client:jar:3.7.0:compile
+[INFO] |  \- org.webjars.npm:sockjs-client:jar:1.3.0:compile (version selected from constraint [1.1.5,2))
+[INFO] |     +- org.webjars.npm:json3:jar:3.3.2:compile (version selected from constraint [3.3.2,4))
+[INFO] |     +- org.webjars.npm:url-parse:jar:1.4.6:compile (version selected from constraint [1.4.3,2))
+[INFO] |     |  +- org.webjars.npm:querystringify:jar:2.1.1:compile (version selected from constraint [2.0.0,3))
+[INFO] |     |  \- org.webjars.npm:requires-port:jar:1.0.0:compile (version selected from constraint [1.0.0,2))
+[INFO] |     +- org.webjars.npm:faye-websocket:jar:0.11.1:compile (version selected from constraint [0.11.1,0.12))
+[INFO] |     |  \- org.webjars.npm:websocket-driver:jar:0.7.0:compile (version selected from constraint [0.5.1,))
+[INFO] |     |     +- org.webjars.npm:http-parser-js:jar:0.5.0:compile (version selected from constraint [0.4.0,))
+[INFO] |     |     \- org.webjars.npm:websocket-extensions:jar:0.1.3:compile (version selected from constraint [0.1.1,))
+[INFO] |     +- org.webjars.npm:eventsource:jar:1.0.7:compile (version selected from constraint [1.0.7,2))
+[INFO] |     |  \- org.webjars.npm:original:jar:1.0.2:compile (version selected from constraint [1.0.0,2))
+[INFO] |     +- org.webjars.npm:inherits:jar:2.0.3:compile (version selected from constraint [2.0.3,3))
+[INFO] |     \- org.webjars.npm:debug:jar:3.2.6:compile (version selected from constraint [3.2.5,4))
+[INFO] |        \- org.webjars.npm:ms:jar:2.1.1:compile (version selected from constraint [2.1.1,3))
+[INFO] +- org.webjars.npm:lodash:jar:4.17.11:compile
+[INFO] +- org.webjars.bower:angular:jar:1.7.7:compile
+[INFO] +- org.webjars.bower:gauge.js:jar:1.3.5:compile
+[INFO] +- org.webjars.bower:chart.js:jar:2.7.3:compile
+[INFO] +- org.webjars.bower:countUp.js:jar:1.7.0:compile
+[INFO] +- io.vertx:vertx-junit5:jar:3.7.0:test
+[INFO] |  \- io.vertx:vertx-rx-java:jar:3.7.0:test
+[INFO] |     \- io.reactivex:rxjava:jar:1.3.8:test
+[INFO] +- org.junit.jupiter:junit-jupiter-api:jar:5.4.0:test
+[INFO] |  +- org.apiguardian:apiguardian-api:jar:1.0.0:test
+[INFO] |  +- org.opentest4j:opentest4j:jar:1.1.1:test
+[INFO] |  \- org.junit.platform:junit-platform-commons:jar:1.4.0:test
+[INFO] +- org.junit.jupiter:junit-jupiter-engine:jar:5.4.0:test
+[INFO] |  \- org.junit.platform:junit-platform-engine:jar:1.4.0:test
+[INFO] \- tdc.kafka:coffee-model:jar:1.0-SNAPSHOT:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.516 s
+[INFO] Finished at: 2019-05-11T20:57:37-03:00
+[INFO] ------------------------------------------------------------------------
